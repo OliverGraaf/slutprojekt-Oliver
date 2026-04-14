@@ -1,0 +1,60 @@
+/*  */
+
+.infopage {
+    display: flex;
+    flex-direction: column;
+}
+
+.infopage header
+{
+    display:flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* section {
+    
+} */
+
+section img {
+    float:right;
+    height:180px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.44rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+h4 {
+    font-weight: 550;
+    font-size: 1.05rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+a{
+    font-weight: 550;
+    font-size: 1rem;
+}
