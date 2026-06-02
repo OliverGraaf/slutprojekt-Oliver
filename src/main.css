@@ -1,60 +1,119 @@
-/*  */
+/*colors
+main blue #3286AF
+secondary color #edeb46
+footer #E2E9EF
+skugga #797B8D
 
-.infopage {
+css för header och footer på alla sidor
+*/
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Lora, serif;
+}
+
+header{
+    background-color:#3286AF;
     display: flex;
-    flex-direction: column;
+    box-shadow: 0rem 0.5rem 0.6rem #797B8D;
 }
 
-.infopage header
-{
-    display:flex;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-}
-
-/* section {
-    
-} */
-
-section img {
-    float:right;
-    height:180px;
-}
-
+/* main rubrik */
 h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
+    font-weight: 700px;
+    font-size: 5rem;
+    margin-left: 5rem;
+    color: #EDEB46;
+    letter-spacing: 1px;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 1.7rem;
-}
-
-h3 {
-    font-weight: 600;
-    font-size: 1.44rem;
-}
-
-p {
-    font-weight: 500;
-    font-size: 1rem;
-}
-
+/* rubrik botten */
 h4 {
     font-weight: 550;
-    font-size: 1.05rem;
+    font-size: 1.7rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
 }
 
 p {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.75rem;
 }
 
-a{
+.bottomlink{
     font-weight: 550;
-    font-size: 1rem;
+    font-size: 1.75rem;
+   padding-left: 50%;
+}
+
+footer {
+    background-color: #E2E9EF;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer {
+    padding-left: 2rem;
+}
+
+
+
+/* lista länkar */
+div2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.toplink {
+    width: 20rem;
+    margin: 0.75rem;
+    background-color: #EDEB46;
+    border-radius: 10px;
+    box-shadow: 0.4rem 0.4rem 0.4rem #333;
+    color: #000;
+    text-align: center;
+    font-size: 1.8rem;
+    border: 0.15rem solid #222;
+}
+
+.toplist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5rem;
+    margin-top: 3rem;
+}
+
+/* icon */
+.svgcontainer {
+    float: right;
+    align-content: center;
+}
+
+svg {
+    width: 16rem;
+    color: #EDEB46;
+}
+
+.svg {
+    float: right;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+
+
+
+@media (max-width: 900px) {
+
+    html {
+        font-size: 56.25%;
+    }
+    body{
+        margin: 0px;
+    }
 }

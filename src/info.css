@@ -1,0 +1,77 @@
+/*colors
+main blue #3286AF
+secondary color #EDEB46
+footer #E2E9EF
+shadow #797B8D
+
+*/
+
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Lora, serif;
+}
+
+.infopage {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section {
+ display:flex;
+ padding: 0rem 7rem;
+ gap: 7rem;
+ margin: 1rem 5rem;
+
+ border-style: solid;
+ border-radius: 20px;
+ border-width: 2px;
+ border-color: #E6EBFF;
+ box-shadow: 0.5rem 0.5rem 0.6rem #797B8D;
+}
+
+section img {
+    height:20rem;
+    border-radius: 10px;
+}
+
+.bilder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infotext {
+    letter-spacing: -0.5px;
+    line-height: 1.5;
+    text-indent: 1rem;
+}
+
+/* rubrik main */
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    letter-spacing: 1px;
+}
+
+/* rubrik textruta */
+h3 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
